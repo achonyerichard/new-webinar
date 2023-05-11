@@ -24,9 +24,9 @@ const Navigation = () => {
     "
           >
             <div>
-              <a href="#">
+              <Link to="/">
                 <img className="w-24 object-cover" src="img/logo.png" />
-              </a>
+              </Link>
             </div>
 
             <svg
@@ -56,7 +56,7 @@ const Navigation = () => {
             >
               <ul
                 className="
-       py-2
+       space-y-4 md:space-y-0
           text-base px-2 lg:px-0
           md:flex
           md:justify-between 
@@ -67,7 +67,7 @@ const Navigation = () => {
                 <li>
                   <Link
                     className="md:p-4 block text-[#35354b] font-medium"
-                   to="/"
+                    to="/"
                   >
                     Home
                   </Link>
@@ -75,7 +75,7 @@ const Navigation = () => {
                 <li>
                   <Link
                     className="md:p-4 block text-[#35354b] font-medium"
-                   to="/fees"
+                    to="/fees"
                   >
                     Fees
                   </Link>
@@ -83,7 +83,7 @@ const Navigation = () => {
                 <li>
                   <Link
                     className="md:p-4 block text-[#35354b] font-medium"
-                   to="/members"
+                    to="/members"
                   >
                     Members
                   </Link>
@@ -93,12 +93,11 @@ const Navigation = () => {
                     className="md:p-4 block text-[#35354b] font-medium"
                     href="https://forms.gle/7J5bQgE4D9Pt64AT7"
                   >
-                   <button className="px-2 py-2 bg-[#6463a8] text-white rounded-lg">
-                    Register
-                   </button>
+                    <button className="px-2 py-2 bg-[#6463a8] text-white rounded-lg">
+                      Register
+                    </button>
                   </a>
                 </li>
-                
               </ul>
             </div>
           </nav>

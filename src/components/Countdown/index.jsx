@@ -87,6 +87,18 @@ const Countdown = () => {
         <p>Submission of Abstract Ends: June 30, 2023</p>
       
         </div>
+        <div className="mt-10 flex flex-col justify-center items-center">
+        <h3 className="leading-none font-black text-3xl text-center ">
+        Sponsorship Details
+        </h3>
+        <p className="mt-4">
+        To be announced later
+
+
+        </p>
+       
+      
+        </div>
        </div>
     </div>
   );

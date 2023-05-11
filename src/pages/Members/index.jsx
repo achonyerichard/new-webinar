@@ -6,7 +6,7 @@ const Members = () => {
   return (
     <>
       <Navigation />
-      <div className="py-28 md:py-24 bg-[#d7c7fd]">
+      <div className="py-28 bg-[#d7c7fd]">
         <h2 className="lg:text-4xl text-4xl text-center font-semibold text-black pb-10">
           List of Speakers
         </h2>

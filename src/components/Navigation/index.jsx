@@ -86,7 +86,7 @@ const Navigation = () => {
                     className="md:p-4 block text-[#35354b] font-medium"
                     to="/members"
                   >
-                    Members
+                    Members/Speakers
                   </Link>
                 </li>
                 <li>

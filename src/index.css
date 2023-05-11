@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+
+.main h1{
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.pricing-plan {
+  &:hover {
+    .pricing-amount {
+      background-color: #4c51bf;
+      color: #fff;
+    }
+  }
+}
+.countdown{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+  
+
+
+
+div span:last-of-type{
+  font-size: 12px;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+ .main h1{
+    font-size: 40px;
+  }
+  
+  .countdown{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .countdown > div{
+    background-color: #fff;
+    width: auto;
+    height: 60px;
+    margin: 0;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+ 
+  .number {
+  font-size: 34px;
+}
+}
+
+* Career Accordion */
+.accordion label:after {
+  content: "^";
+  position: absolute;
+  right: 1em;
+  color: black;
+  transform: rotate(180deg);
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.accordion input:checked + label:after {
+  content: "^";
+  line-height: 0.8em;
+  transform: rotate(0deg);
+  color: black;
+}
+
+.accordion__content {
+  max-height: 0em;
+  transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+input[name="panel"]:checked ~ .accordion__content {
+  /* Get this as close to what height you expect */
+  max-height: 50em;
+}
+
+.phone-container input {
+  background-color: white;
+  color: black;
+
+  padding: 10px;
+  border: 1px solid #dcdedd;
+}
+
+.phone-container input:focus {
+  border: 1px solid #dcdedd;
+}
+.phone-container select {
+  background-color: #fff;
+  color: black;
+  scrollbar-color: white;
+  border: 1px solid #dcdedd;
+}
+.inputStyle {
+  background-color: #fff;
+}
+
+.countdown{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+@media screen and (max-width:600px){
+  .main h1{
+     font-size: 40px;
+   }
+   
+   .countdown{
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+     margin-top: 30px;
+   }
+   .countdown > div{
+     background-color: #fff;
+     width: 250px;
+     height: 60px;
+     margin: 0;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 20px;
+   }
+  
+   .number {
+   font-size: 34px;
+ }
+ }
+ 

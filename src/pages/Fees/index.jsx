@@ -5,7 +5,7 @@ const Fees = () => {
   return (
     <>
       <Navigation />
-      <div className="pricing-table-2 bg-[#d7c7fd] py-12 md:py-24">
+      <div className="pricing-table-2 bg-[#d7c7fd] py-20 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl  text-[#6463a8] font-bold mb-4 md:mb-6">

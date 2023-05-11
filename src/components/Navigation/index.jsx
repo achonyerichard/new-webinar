@@ -56,6 +56,7 @@ const Navigation = () => {
             >
               <ul
                 className="
+                py-2 md:py-0
        space-y-4 md:space-y-0
           text-base px-2 lg:px-0
           md:flex

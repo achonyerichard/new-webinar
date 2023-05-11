@@ -46,31 +46,7 @@ div span:last-of-type{
 
 
 
-@media screen and (max-width:600px){
- .main h1{
-    font-size: 40px;
-  }
-  
-  .countdown{
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-top: 30px;
-  }
-  .countdown > div{
-    background-color: #fff;
-    width: auto;
-    height: 60px;
-    margin: 0;
-    flex-direction: row;
-    justify-content: center;
-    
-  }
- 
-  .number {
-  font-size: 34px;
-}
-}
+
 
 * Career Accordion */
 .accordion label:after {
@@ -141,8 +117,7 @@ input[name="panel"]:checked ~ .accordion__content {
      width: 250px;
      height: 60px;
      margin: 0;
-     flex-direction: row;
-     justify-content: space-between;
+
      padding: 20px;
    }
   

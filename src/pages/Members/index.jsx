@@ -60,7 +60,7 @@ const Members = () => {
                   </h1>
                   <div className="flex justify-center items-center gap-2">
                     <div>
-                      <a href="https://www.linkedin.com/in/oyebayo-ridwan-olaniran/"></a>
+                      <a href="https://www.linkedin.com/in/oyebayo-ridwan-olaniran-76520578/"></a>
                       <FaLinkedin className="text-2xl" />
                     </div>
                     <p className="text-blue-gray-700 text-sm font-light leading-relaxed ">
@@ -97,7 +97,7 @@ const Members = () => {
                   </h1>
                   <div className="flex justify-center items-center gap-2">
                     <div>
-                      <a href="https://www.linkedin.com/in/adeyinkaoresanya/"></a>
+                      <a href="https://www.linkedin.com/in/adeyinkaoresanya/?originalSubdomain=ng"></a>
                       <FaLinkedin className="text-2xl" />
                     </div>
                     <p className="text-blue-gray-700 text-sm font-light leading-relaxed ">
@@ -167,7 +167,7 @@ const Members = () => {
                   </h1>
                   <div className="flex justify-center items-center gap-2">
                     <div>
-                      <a href="https://www.linkedin.com/in/olumide-adesina-ph-d/">
+                      <a href="https://www.linkedin.com/in/olumide-adesina-ph-d-bb296a111/">
                         {" "}
                         <FaLinkedin className="text-2xl" />
                       </a>
@@ -204,7 +204,7 @@ const Members = () => {
                   </h1>
                   <div className="flex justify-center items-center gap-2">
                     <div>
-                      <a href="https://www.linkedin.com/in/azeez-yusuf/">
+                      <a href="https://www.linkedin.com/in/azeez-yusuf-b519806a/">
                         {" "}
                         <FaLinkedin className="text-2xl" />
                       </a>

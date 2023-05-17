@@ -25,8 +25,8 @@ const Members = () => {
                   </h1>
                   <div className="flex justify-center items-center gap-2">
                     <div>
-                      <a href=" https://www.linkedin.com/in/kazeem-lasisi-36026163/?originalSubdomain=ng"></a>
-                      <FaLinkedin className="text-2xl" />
+                      <a href=" https://www.linkedin.com/in/kazeem-lasisi-36026163/?originalSubdomain=ng">    <FaLinkedin className="text-2xl" /></a>
+                  
                     </div>
                     <p className="text-blue-gray-700 text-sm font-light leading-relaxed ">
                       (Keynote Address)
@@ -60,8 +60,8 @@ const Members = () => {
                   </h1>
                   <div className="flex justify-center items-center gap-2">
                     <div>
-                      <a href="https://www.linkedin.com/in/oyebayo-ridwan-olaniran-76520578/"></a>
-                      <FaLinkedin className="text-2xl" />
+                      <a href="https://www.linkedin.com/in/oyebayo-ridwan-olaniran-76520578/"> <FaLinkedin className="text-2xl" /></a>
+                     
                     </div>
                     <p className="text-blue-gray-700 text-sm font-light leading-relaxed ">
                       (Lead Paper Presenter)
@@ -97,8 +97,8 @@ const Members = () => {
                   </h1>
                   <div className="flex justify-center items-center gap-2">
                     <div>
-                      <a href="https://www.linkedin.com/in/adeyinkaoresanya/?originalSubdomain=ng"></a>
-                      <FaLinkedin className="text-2xl" />
+                      <a href="https://www.linkedin.com/in/adeyinkaoresanya/?originalSubdomain=ng">  <FaLinkedin className="text-2xl" /></a>
+                    
                     </div>
                     <p className="text-blue-gray-700 text-sm font-light leading-relaxed ">
                       (Conference Speaker)
@@ -132,8 +132,8 @@ const Members = () => {
                   </h1>
                   <div className="flex justify-center items-center gap-2">
                     <div>
-                      <a href="https://www.linkedin.com/in/zainab-ishaq-musa"></a>
-                      <FaLinkedin className="text-2xl" />
+                      <a href="https://www.linkedin.com/in/zainab-ishaq-musa"><FaLinkedin className="text-2xl" /></a>
+                   
                     </div>
                     <p className="text-blue-gray-700 text-sm font-light leading-relaxed ">
                       (Conference Speaker)
